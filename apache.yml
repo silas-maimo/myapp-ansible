@@ -1,5 +1,5 @@
 ---
-- hosts: apache
+- hosts: all
   become: True
   tasks:
     - name: Install packages
